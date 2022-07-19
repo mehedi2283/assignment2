@@ -10,10 +10,7 @@ body{
     display: flex;
 }
 
-    /* Header Style */
-    /* .top:hover .heading img{
-        transform:translateX(40px);
-    } */
+    
 header{
     background-color: #161616;
     width: 86%;
@@ -29,9 +26,10 @@ header{
 
 .head-description{
     color: white;
-    padding: 5% 5% 0 5%;
+    padding: 5% 5% 5% 5%;
 }
 .headdes{
+    font-size: 70px;
     font-weight: 900;
 }
 .headpara{
@@ -48,7 +46,7 @@ header{
     padding-top: 33px;
     padding-right: 5%;
     margin-bottom: 0;
-    transition-duration: 0.5s;
+    transition-duration: 1s;
 
 }
 .top:hover .headimg{
@@ -66,14 +64,14 @@ header{
 }
 /* Blog Section style */
 main{
-    width: 86%;
+    width: 87%;
     margin-top: 5%;
     margin-left: 7%;
     
 }
 
 .tabs{
-    width: 25%;
+    width: 400px;
     height: 312px;
     background-color: #161616;
     border-radius: 10px;
@@ -131,8 +129,8 @@ main{
     text-align: center;
 }
 .vs img{
-    width: 100%;
-    border-radius: 8px;
+    width: 70%;
+    border-radius: 3px;
 } 
 .vs{
     display: flex;
