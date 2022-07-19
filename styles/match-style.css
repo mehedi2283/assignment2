@@ -73,7 +73,7 @@ main{
 }
 
 .tabs{
-    width: 40%;
+    width: 25%;
     height: 312px;
     background-color: #161616;
     border-radius: 10px;
@@ -115,21 +115,31 @@ main{
     color: white;
 }
 
-.blog img{
-    width: 100%;
-} 
 
-.blogs{
+
+.date{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 24px;
     padding-left: 20px
 
 }
-.blog{
+.schedule{
     border: 1px solid lightgray;
     border-radius: 8px;
     padding:  10px;
+    text-align: center;
+}
+.vs img{
+    width: 100%;
+    border-radius: 8px;
+} 
+.vs{
+    display: flex;
+    justify-content:center;
+    column-gap: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .details{
     width: 50%;
@@ -150,6 +160,8 @@ footer{
 .others{
     display: flex;
     justify-content: space-evenly;
+    border-bottom: 1px solid #FFFFFF1A;
+
 }
 .socials{
     display: flex;
