@@ -126,3 +126,67 @@ main{
     display: flex;
     justify-content: space-between;
 }
+/* Footer style */
+footer{
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+}
+.f-title{
+    justify-content: center;
+    font-size: 40px;
+    border-bottom: 1px solid #FFFFFF1A;
+}
+.others{
+    display: flex;
+    justify-content: space-evenly;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 17px;
+    padding-bottom: 50px;
+}
+.social-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff29;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition-duration: 0.7s;
+}
+.social-bg:hover{
+    background-color: white;
+    transition-duration: 0.7s;
+
+
+}
+.social-bg:hover a .fa-instagram{
+    color: purple;
+    font-weight: 900;
+}
+.social-bg:hover a .fa-facebook{
+    color: blue;
+    font-weight: 900;
+}
+.social-bg:hover a .fa-twitter{
+    color: rgb(45, 141, 179);
+    font-weight: 900;
+}
+.social-bg:hover a .fa-youtube{
+    color: rgb(178, 2, 2);
+    font-weight: 900;
+    transition-duration: 0.5s;
+
+}
+
+
+.social-bg a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+   
+}
