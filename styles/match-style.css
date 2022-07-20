@@ -241,16 +241,21 @@ footer{
     .container2{
         flex-direction: column;
         align-items: center;
-        width: 90%;
+        width: 100%;
         
+    }
+    .tab-main{
+        margin: 0;
     }
     .tabs{
         flex-direction: row;
-        width: 100%;
+        width: 70%;
         height: 100%;
         background-color: white;
-        margin-left: 0;
-        padding-right: 10%;
+        margin-top: 30px;
+        /* margin-left: 10%; */
+        /* margin-right: 10%; */
+        /* padding-right: 10%; */
         /* text-align: center; */
         /* justify-content: center;
         align-items: center; */
@@ -260,6 +265,8 @@ footer{
         flex-direction: row;
         width: 100%; 
         margin-bottom: 50px;
+        gap: 80px;
+        
          
     
     }
@@ -270,11 +277,17 @@ footer{
     .date{
         grid-template-columns: repeat(2,1fr);
         column-gap: 0;
+        margin: 0;
+    }
+     a.schedule{
+       margin: 0;
+        
     }
     .upcming-match,.all-group,#blogz{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0;
     }
     .view-all{
         display:block;
