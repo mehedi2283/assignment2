@@ -224,7 +224,7 @@ footer{
 /* -------------Responsive Start-------------- */
 
 /* For Tablet */
-@media screen and (min-width:688px) and (max-width:1023px) {
+@media screen and (min-width:689px) and (max-width:1023px) {
     .top{
         height: 50%;
     }
@@ -277,6 +277,64 @@ footer{
     .others{
         column-gap: 35px;
         flex-wrap: wrap;
+    }
+    
+}
+
+
+/* Mobile View*/
+@media screen and (max-width:689px) {
+    .top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .head-description{
+        text-align: center;
+
+    }
+    .headdes{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .headpara{
+        width: 100%;
+        height: 75px;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        
+    }
+    /* main */
+    main{
+        margin-top: 10px;
+    }
+
+    .container2{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .tabs{
+        background-color: white;
+    }
+    .switch-tab a{
+        border: 1px solid lightgray;
+    }
+    .blogs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .fmain{
+        width: 67%;
+    }
+    .f-title{
+        font-size: 15px;
+
+        
+    }
+    .f-title h1{
+        margin:10px;
+    }
+    .others{
+        flex-direction: column;
     }
     
 }
