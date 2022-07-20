@@ -5,6 +5,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    width: 100%;
 }
 .container{
     display: flex;
@@ -53,6 +54,7 @@ header{
 
 .headimg{
     padding-top: 33px;
+    padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 0;
     transition-duration: 1s;
