@@ -230,6 +230,9 @@ footer{
 
 /* For Tablet */
 @media screen and (min-width:688px) and (max-width:1023px) {
+    body{
+        width: 100;
+    }
     .top{
         height: 50%;
     }
