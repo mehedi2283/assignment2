@@ -274,5 +274,9 @@ footer{
     .fmain{
         width: 75%;
     }
+    .others{
+        column-gap: 35px;
+        flex-wrap: wrap;
+    }
     
 }
