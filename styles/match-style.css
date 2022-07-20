@@ -10,7 +10,7 @@ body{
     display: flex;
 }
 
-    
+    /* Header Style */
 header{
     background-color: #161616;
     width: 86%;
@@ -20,27 +20,36 @@ header{
     gap: 20px;
 }
 
+
 .half-width{
     width: 50%;
 }
+
+
 
 .head-description{
     color: white;
     padding: 5% 5% 5% 5%;
 }
+
+
 .headdes{
     font-size: 70px;
     font-weight: 900;
 }
+
+
 .headpara{
     font-weight: 100;
 }
+
+
 .headimg img{
     
     width: 100%;
-    height: 100%;
-    
+    height: 100%;   
 }
+
 
 .headimg{
     padding-top: 33px;
@@ -49,10 +58,13 @@ header{
     transition-duration: 1s;
 
 }
+
+
 .top:hover .headimg{
     transform: translateX(-80px);
     transition-duration: 0.5s;
 }
+
 
 .btn{
     text-decoration: none;
@@ -62,14 +74,16 @@ header{
     padding: 2%;
     border-radius: 5px;
 }
+
+
 /* Blog Section style */
 main{
-    /* width:1130px; */
+    
     margin-top: 130px;
     margin-left: 110px;
-   
-    
+      
 }
+
 
 .tabs{
     width: 200px;
@@ -77,14 +91,12 @@ main{
     background-color: #161616;
     border-radius: 10px;
     display: flex;
-    /* flex-direction: column; */
     align-content:center;
     justify-content:center;
     
-    
-
-    
 }
+
+
 .switch-tab{
     
     display: flex;
@@ -93,14 +105,11 @@ main{
     justify-content:center;
     row-gap: 15px;
     width: 300px;
-    text-align: center;
-
-    
-   
-    
-  
+    text-align: center; 
 
 }
+
+
 .switch-tab a{
     text-decoration: none;
     padding: 10px;
@@ -108,10 +117,10 @@ main{
     background-color: white;
     font-weight: 700;
     border: none;
-    
-   
-    
+        
 }
+
+
 #upcoming-match{
     background-color: #DD0000;
     color: white;
@@ -128,6 +137,9 @@ main{
     margin-left: 20px;
 
 }
+
+
+
 .schedule{
     border: 1px solid lightgray;
     border-radius: 8px;
@@ -137,46 +149,64 @@ main{
     margin-left: 10%;
     
 }
+
+
 .vs img{
     width: 40%;
     border-radius: 3px;
 } 
+
+
 .vs{
     display: flex;
     justify-content:center;
     column-gap: 10px;
-    
-    
+        
 }
+
+
 .details{
     width: 50%;
     display: flex;
     justify-content: space-between;
 }
+
+
+
 .view-all{
     display: none;
 }
+
+
 /* Footer style */
 footer{
     background-color: #0A0826;
     color: white;
     text-align: center;
 }
+
+
 .fmain{
     width: 80%;
     margin-left:10%;
 }
+
+
 .f-title{
     justify-content: center;
     font-size: 40px;
     border-bottom: 1px solid #FFFFFF1A;
 }
+
+
 .others{
     display: flex;
     justify-content: space-evenly;
     border-bottom: 1px solid #FFFFFF1A;
 
 }
+
+
 .socials{
     display: flex;
     justify-content: center;
@@ -184,6 +214,8 @@ footer{
     padding-top: 17px;
     padding-bottom: 50px;
 }
+
+
 .social-bg{
     display: flex;
     justify-content: center;
@@ -194,24 +226,33 @@ footer{
     border-radius: 50%;
     transition-duration: 0.7s;
 }
+
+
 .social-bg:hover{
     background-color: white;
     transition-duration: 0.7s;
 
-
 }
+
+
 .social-bg:hover a .fa-instagram{
     color: purple;
     font-weight: 900;
 }
+
+
 .social-bg:hover a .fa-facebook{
     color: blue;
     font-weight: 900;
 }
+
+
 .social-bg:hover a .fa-twitter{
     color: rgb(45, 141, 179);
     font-weight: 900;
 }
+
+
 .social-bg:hover a .fa-youtube{
     color: rgb(178, 2, 2);
     font-weight: 900;
@@ -231,75 +272,86 @@ footer{
 
 /* For Tablet */
 @media screen and (min-width:688px) and (max-width:1023px) {
-    body{
-        width: 100;
-    }
+    
+    /* Header */
     .top{
         height: 50%;
     }
 
-   
+   /* Main */
     .container2{
         flex-direction: column;
         align-items: center;
         width: 100%;
         
     }
+
+
     .tab-main{
         margin: 0;
     }
+
+
     .tabs{
         flex-direction: row;
         width: 70%;
         height: 100%;
         background-color: white;
         margin-top: 30px;
-        /* margin-left: 10%; */
-        /* margin-right: 10%; */
-        /* padding-right: 10%; */
-        /* text-align: center; */
-        /* justify-content: center;
-        align-items: center; */
-
+       
     }
+
+
     .switch-tab{
         flex-direction: row;
         width: 100%; 
         margin-bottom: 50px;
-        gap: 80px;
-        
-         
+        gap: 80px;    
     
     }
+
+
     .switch-tab a{
         border: 1px solid lightgray;
 
     }
+
+
     .date{
         grid-template-columns: repeat(2,1fr);
         column-gap: 0;
         margin: 0;
         padding-left: 4%;
     }
+
+
     .schedule{
         margin: 0;
     }
+
+
      a.schedule{
        margin: 0;
         
     }
+
+
     .upcming-match,.all-group,#blogz{
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0;
     }
+
+
     .view-all{
         display:block;
         margin-top: 40px;
         
     }
-    /* footer  */
+
+
+    /* Footer  */
     
     .others{
         column-gap: 35px;
@@ -311,18 +363,27 @@ footer{
 
 /* Mobile View*/
 @media screen and (max-width:689px) {
+    
+    /* Heder */
+
     .top{
         flex-direction: column;
         align-items: center;
     }
+
+
     .head-description{
         text-align: center;
 
     }
+
+
     .headdes{
         font-size: 30px;
         font-weight: 900;
     }
+
+
     .headpara{
         width: 100%;
         height: 45px;
@@ -330,13 +391,17 @@ footer{
         text-overflow: ellipsis;
         
     }
+
+
     /* main */
+
     main{
         
             margin-top: 10px;
             margin-left: 0;
             margin-right: 0;
-        }    
+        } 
+
 
     .container2{
         flex-direction: column;
@@ -344,38 +409,55 @@ footer{
         width: 90%;
         margin-left: 8.5%;
     }
+
+
     .tabs{
         background-color: white;
         align-items: center;
     }
+
+
     .switch-tab a{
         border: 1px solid lightgray;
     }
+
+
     .date{
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         justify-content: center;
         margin: 0;
     }
+
+
     .schedule{
         margin: 0;
     }
+
+
     .view-all{
         display: none;
     }
 
+
+    /* Footer */
+
     footer{
         margin-top: 15%;
     }
+
     
     .f-title{
-        font-size: 20px;
+        font-size: 20px;  
 
-        
     }
+
+
     .f-title h1{
         margin:20px;
     }
+
+    
     .others{
         flex-direction: column;
     }

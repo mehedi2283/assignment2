@@ -51,10 +51,8 @@ header{
     padding-right: 5%;
     margin-bottom: 0;
     transition-duration: 1s;
-    
-
-
 }
+
 .top:hover .headimg{
     transform: translateX(-80px);
     transition-duration: 0.5s;
@@ -67,9 +65,11 @@ header{
     padding: 2%;
     border-radius: 5px;
 }
+
+
+
 /* Blog Section style */
 main{
-    /* width: 87%; */
     margin-top: 130px;
     margin-left: 110px;
     
@@ -81,7 +81,6 @@ main{
     background-color: #161616;
     border-radius: 10px;
     display: flex;
-    /* flex-direction: column; */
     align-content:center;
     justify-content:center;
     
@@ -229,9 +228,13 @@ footer{
 
 /* For Tablet */
 @media screen and (min-width:689px) and (max-width:1023px) {
+
+    /* Header */
     .top{
         height: 50%;
     }
+
+    /* Main */
     .tab-main{
         margin-left: 9%;
     }
@@ -247,9 +250,7 @@ footer{
         background-color: white;
         margin-left: 0;
         padding-right: 10%;
-        /* text-align: center; */
-        /* justify-content: center;
-        align-items: center; */
+        
 
     }
     .switch-tab{
@@ -277,7 +278,7 @@ footer{
         margin-top: 40px;
         
     }
-    /* footer  */
+    /* Footer  */
     
     .others{
         column-gap: 35px;
@@ -289,6 +290,8 @@ footer{
 
 /* Mobile View*/
 @media screen and (max-width:689px) {
+
+    /* Header */
     .top{
         flex-direction: column;
         align-items: center;
@@ -308,6 +311,8 @@ footer{
         text-overflow: ellipsis;
         
     }
+
+
     /* main */
     main{
         margin-top: 10px;
@@ -334,6 +339,8 @@ footer{
         padding-left: 5%;
     }
 
+
+    /* Footer */
     footer{
         margin-top: 15%;
     }
