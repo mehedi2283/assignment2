@@ -228,6 +228,9 @@ footer{
     .top{
         height: 50%;
     }
+    .tab-main{
+        margin-left: 9%;
+    }
     .container2{
         flex-direction: column;
         align-items: center;
@@ -323,6 +326,9 @@ footer{
     }
     .blogs{
         grid-template-columns: repeat(1,1fr);
+    }
+    .blog{
+        padding-left: 5%;
     }
     .fmain{
         width: 80%;
