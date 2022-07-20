@@ -138,6 +138,7 @@ main{
 
 .blog img{
     width: 100%;
+    border-radius: 0 0 8px 8px;
 } 
 
 
@@ -152,11 +153,13 @@ main{
 
 
 .blog{
+    background-color: rgba(202, 245, 243, 0.193);
     border: 1px solid lightgray;
     border-radius: 8px;
     padding:  10px;
     width: 70%;
     margin-left: 10%;
+    box-shadow: 5px 5px 5px #888888;
 
     
 }
@@ -322,14 +325,14 @@ footer{
 
 
     .switch-tab a{
-        border: 1px solid lightgray;
+        border: 1px solid gray;
 
     }
 
 
     .blogs{
         grid-template-columns: repeat(2,1fr);
-        column-gap: 0;
+       
     }
 
 
