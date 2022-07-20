@@ -131,22 +131,22 @@ main{
 .schedule{
     border: 1px solid lightgray;
     border-radius: 8px;
-    padding:  10px;
+    padding:  10%;
     text-align: center;
     width: 70%;
     margin-left: 10%;
     
 }
 .vs img{
-    width: 60%;
+    width: 40%;
     border-radius: 3px;
 } 
 .vs{
     display: flex;
     justify-content:center;
     column-gap: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    
+    
 }
 .details{
     width: 50%;
