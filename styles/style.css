@@ -388,6 +388,12 @@ footer{
         
     }
 
+    
+    .headimg img{
+        display: block;
+        
+    }
+
 
     /* main */
     main{
