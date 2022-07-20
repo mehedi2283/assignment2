@@ -300,9 +300,7 @@ footer{
         
     }
     /* footer  */
-    .fmain{
-        width: 75%;
-    }
+    
     .others{
         column-gap: 35px;
         flex-wrap: wrap;
@@ -365,10 +363,7 @@ footer{
     .view-all{
         display: none;
     }
-    .fmain{
-        width: 80%;
-        padding-left: 10%;
-    }
+    
     .f-title{
         font-size: 15px;
 
