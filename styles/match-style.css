@@ -159,6 +159,9 @@ footer{
     color: white;
     text-align: center;
 }
+.fmain{
+    width: 82%;
+}
 .f-title{
     justify-content: center;
     font-size: 40px;
