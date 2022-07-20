@@ -163,8 +163,8 @@ footer{
     text-align: center;
 }
 .fmain{
-    width: 82%;
-    margin-left: 9%;
+    width: 80%;
+    margin:10%;
 }
 .f-title{
     justify-content: center;
@@ -341,8 +341,9 @@ footer{
     .container2{
         flex-direction: column;
         align-items: center;
-        padding-left:4%; 
-       width: 100%;
+        padding-left:%; 
+        width: 90%;
+        margin-left: 8.5%;
     }
     .tabs{
         background-color: white;
