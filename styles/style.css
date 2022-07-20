@@ -71,7 +71,7 @@ main{
 
 .tabs{
     width: 200px;
-    height: 280px;
+    height: 200px;
     background-color: #161616;
     border-radius: 10px;
     display: flex;
@@ -87,7 +87,7 @@ main{
     flex-direction: column;
     align-content:center;
     justify-content:center;
-    row-gap: 40px;
+    row-gap: 15px;
     width: 300px;
     text-align: center;
 
