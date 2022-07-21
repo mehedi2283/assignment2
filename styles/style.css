@@ -67,7 +67,7 @@ header{
 
 
 .top:hover .headimg{
-    transform: translateX(-80px);
+    transform: translateX(-70px);
     transition-duration: 0.5s;
 }
 
@@ -290,6 +290,8 @@ footer{
     }
 
 
+
+
     /* Main */
     .tab-main{
         margin-left: 9%;
@@ -366,6 +368,7 @@ footer{
 @media screen and (max-width:689px) {
 
     /* Header */
+    
 
     .top{
         flex-direction: column;
@@ -375,6 +378,7 @@ footer{
 
     .head-description{
         text-align: center;
+        padding-bottom: 0;
 
     }
 
@@ -393,9 +397,15 @@ footer{
         
     }
 
+    .headimg{
+        padding-top: 0;
+        padding-left: 10%;
+    }
+
 
     .headimg img{
         display: block;
+    
         
     }
 
